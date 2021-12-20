@@ -11,7 +11,9 @@ import SwiftUI
 struct ScrumdingerApp: App {
     var body: some Scene {
         WindowGroup {
-            Meeting_View()
+            ScrumsView(scrums: DailyScrum.sampleData)
         }
     }
 }
+
+//Creating a navigation hierarchy
