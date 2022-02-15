@@ -1,18 +1,17 @@
-//
-//  ScrumdingerApp.swift
-//  Scrumdinger
-//
-//  Created by Robson Novato Lobao on 11/02/22.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
 
 import SwiftUI
 
 @main
 struct ScrumdingerApp: App {
+    @State private var scrums = DailyScrum.sampleData
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ScrumsView(scrums: DailyScrum.sampleData)
+                ScrumsView(scrums: $scrums)
             }
         }
     }
