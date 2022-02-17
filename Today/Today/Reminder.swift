@@ -1,9 +1,6 @@
-//
-//  Reminder.swift
-//  Today
-//
-//  Created by Robson Novato Lobao on 17/02/22.
-//
+/*
+ See LICENSE folder for this sample's licensing information.
+ */
 
 import Foundation
 
@@ -24,6 +21,7 @@ extension Reminder {
         Reminder(title: "Mock up onboarding experience", dueDate: Date().addingTimeInterval(72000.0), notes: "Think different"),
         Reminder(title: "Review usage analytics", dueDate: Date().addingTimeInterval(83000.0), notes: "Discuss trends with management"),
         Reminder(title: "Confirm group reservation", dueDate: Date().addingTimeInterval(92500.0), notes: "Ask about space heaters"),
-        Reminder(title: "Add beta testers to TestFlight", dueDate: Date().addingTimeInterval(101000.0),  notes: "v0.9 out on Friday")
+        Reminder(title: "Add beta testers to TestFlight", dueDate: Date().addingTimeInterval(101000.0), notes: "v0.9 out on Friday")
     ]
 }
+
