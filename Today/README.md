@@ -1,5 +1,5 @@
-# Setting Up a Table View
+# Loading Reminders
 
 ## Completed Project
 
-Explore the completed project for the [Setting Up a Table View](https://developer.apple.com/tutorials/app-dev-training/setting-up-a-table-view) tutorial.
+Explore the completed project for the [Loading Reminders](https://developer.apple.com/tutorials/app-dev-training/loading-reminders) tutorial.
